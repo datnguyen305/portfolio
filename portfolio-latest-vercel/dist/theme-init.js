@@ -1,0 +1,1 @@
+(()=>{let theme='original';try{const saved=localStorage.getItem('dat-portfolio:theme:v1');if(saved==='original'||saved==='soft-pink')theme=saved;}catch{}document.documentElement.dataset.theme=theme;})();
